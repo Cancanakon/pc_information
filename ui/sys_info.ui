@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>-1</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>System Info</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#B5C7CC; font-size:16px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>521</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="6" column="0">
+      <widget class="QLabel" name="lbl_cpu_name_2">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>CPU:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="lbl_av_ram">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="lbl_sys_ver">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>CPU USAGE (%):</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>AV. RAM:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>TOTAL RAM:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="lbl_ram_usage">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="lbl_cpu_family">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="lbl_sys_name">
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="lbl_cpu_name">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="lbl_cpu_usage">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="lbl_total_ram">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>SYSTEM VER:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>SYSTEM:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>CPU FAMILY:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="dsfds">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>RAM USAGE (%):</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>80</y>
+      <width>431</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_41">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>USAGE GPU(%):</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_42">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>USAGE VRAM:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_45">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>CPU TEMP:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="lbl_gpu_name">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_38">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>BATTERY(%):</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="lbl_battery_per">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_36">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>GPU:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_37">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>GPU DRIVER:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_39">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>VRAM:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="lbl_vram">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="lbl_cpu_temp">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="lbl_gpu_driver">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="lbl_vram_usage">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_59">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>CPU COUNT:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="lbl_usage_vram_per">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="lbl_cpu_count">
+       <property name="styleSheet">
+        <string notr="true">background-color:#8BA1AD;color:white;</string>
+       </property>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="lbl_dev_name">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>20</y>
+      <width>1301</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:22px;</string>
+    </property>
+    <property name="text">
+     <string>DEVICE  NAME</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>1231</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#8BA1AD; border-radius: 50px 50px 0 50px;</string>
+    </property>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>gridLayoutWidget_2</zorder>
+   <zorder>lbl_dev_name</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
